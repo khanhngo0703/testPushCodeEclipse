@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="658.0" prefWidth="872.0"
+	style="-fx-background-radius: 10;" styleClass="white-background"
+	stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="872.0">
+			<children>
+				<Label alignment="CENTER" text="Additional information">
+					<font>
+						<Font name="System Bold" size="18.0" />
+					</font>
+					<HBox.margin>
+						<Insets left="20.0" />
+					</HBox.margin>
+				</Label>
+			</children>
+		</HBox>
+		<Separator prefWidth="200.0" />
+		<VBox prefHeight="115.0" prefWidth="872.0">
+			<children>
+				<HBox prefHeight="179.0" prefWidth="872.0">
+					<children>
+						<VBox prefHeight="159.0" prefWidth="225.0">
+							<children>
+								<HBox prefHeight="25.0" prefWidth="100.0">
+									<children>
+										<ImageView fitHeight="20.0" fitWidth="20.0"
+											pickOnBounds="true" preserveRatio="true">
+											<image>
+												<Image
+													url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/box.png" />
+											</image>
+										</ImageView>
+										<Label opacity="0.76" text="Published by">
+											<HBox.margin>
+												<Insets left="8.0" />
+											</HBox.margin>
+											<font>
+												<Font size="14.0" />
+											</font>
+										</Label>
+									</children>
+								</HBox>
+								<Hyperlink text="Meta">
+									<VBox.margin>
+										<Insets left="25.0" />
+									</VBox.margin>
+									<font>
+										<Font name="System Bold" size="14.0" />
+									</font>
+								</Hyperlink>
+								<Label text="Copyright 2016, Facebook Inc.">
+									<VBox.margin>
+										<Insets left="25.0" />
+									</VBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+							<HBox.margin>
+								<Insets left="20.0" top="20.0" />
+							</HBox.margin>
+						</VBox>
+						<VBox prefHeight="159.0" prefWidth="225.0">
+							<children>
+								<HBox prefHeight="25.0" prefWidth="100.0">
+									<children>
+										<ImageView fitHeight="18.0" fitWidth="18.0"
+											pickOnBounds="true" preserveRatio="true">
+											<image>
+												<Image
+													url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/date.png" />
+											</image>
+										</ImageView>
+										<Label opacity="0.76" text="Release Date">
+											<HBox.margin>
+												<Insets left="8.0" />
+											</HBox.margin>
+											<font>
+												<Font size="14.0" />
+											</font>
+										</Label>
+									</children>
+								</HBox>
+								<Label text="10/17/2013">
+									<VBox.margin>
+										<Insets left="25.0" />
+									</VBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+							<HBox.margin>
+								<Insets left="60.0" top="20.0" />
+							</HBox.margin>
+						</VBox>
+						<VBox prefHeight="159.0" prefWidth="225.0">
+							<children>
+								<HBox prefHeight="25.0" prefWidth="100.0">
+									<children>
+										<ImageView fitHeight="18.0" fitWidth="18.0"
+											pickOnBounds="true" preserveRatio="true">
+											<image>
+												<Image
+													url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/mark.png" />
+											</image>
+										</ImageView>
+										<Label opacity="0.76" text="Category">
+											<HBox.margin>
+												<Insets left="8.0" />
+											</HBox.margin>
+											<font>
+												<Font size="14.0" />
+											</font>
+										</Label>
+									</children>
+								</HBox>
+								<Hyperlink text="Social">
+									<VBox.margin>
+										<Insets left="25.0" />
+									</VBox.margin>
+									<font>
+										<Font name="System Bold" size="14.0" />
+									</font>
+								</Hyperlink>
+							</children>
+							<HBox.margin>
+								<Insets left="60.0" top="20.0" />
+							</HBox.margin>
+						</VBox>
+					</children>
+				</HBox>
+			</children>
+		</VBox>
+		<HBox prefHeight="179.0" prefWidth="872.0">
+			<children>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="20.0" fitWidth="20.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/appicon.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="Approximate size">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Label text="2.1 MB">
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+					</children>
+					<HBox.margin>
+						<Insets left="20.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="18.0" fitWidth="18.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/install.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="Installation">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Label
+							text="Get this app while signed in to your Microsoft account and install on up to ten Windows devices."
+							wrapText="true">
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+					</children>
+					<HBox.margin>
+						<Insets left="60.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="18.0" fitWidth="18.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/protect.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="This app can">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Label text="Access your Internet connection">
+							<font>
+								<Font size="14.0" />
+							</font>
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+						</Label>
+						<Hyperlink text="Permissions info" underline="true">
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+						</Hyperlink>
+					</children>
+					<HBox.margin>
+						<Insets left="60.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+			</children>
+		</HBox>
+		<HBox prefHeight="179.0" prefWidth="872.0">
+			<children>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="20.0" fitWidth="20.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/message.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="Supported languages">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Label text="English">
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+					</children>
+					<HBox.margin>
+						<Insets left="20.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="20.0" fitWidth="20.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/box.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="Publisher Info">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Hyperlink text="Facebook support">
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+						</Hyperlink>
+						<Hyperlink text="Facebook website">
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+						</Hyperlink>
+						<Hyperlink text="Contact information">
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+						</Hyperlink>
+					</children>
+					<HBox.margin>
+						<Insets left="60.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="18.0" fitWidth="18.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/text.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="Additional terms">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Hyperlink text="Facebook privacy policy">
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+						</Hyperlink>
+						<Hyperlink text="Terms of transaction">
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+						</Hyperlink>
+					</children>
+					<HBox.margin>
+						<Insets left="60.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+			</children>
+		</HBox>
+		<HBox prefHeight="107.0" prefWidth="872.0">
+			<children>
+				<VBox prefHeight="159.0" prefWidth="225.0">
+					<children>
+						<HBox prefHeight="25.0" prefWidth="100.0">
+							<children>
+								<ImageView fitHeight="20.0" fitWidth="20.0"
+									pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image
+											url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/flag.png" />
+									</image>
+								</ImageView>
+								<Label opacity="0.76" text="Report this product">
+									<HBox.margin>
+										<Insets left="8.0" />
+									</HBox.margin>
+									<font>
+										<Font size="14.0" />
+									</font>
+								</Label>
+							</children>
+						</HBox>
+						<Hyperlink text="Report this app to Microsoft">
+							<font>
+								<Font name="System Bold" size="14.0" />
+							</font>
+							<VBox.margin>
+								<Insets left="25.0" />
+							</VBox.margin>
+						</Hyperlink>
+					</children>
+					<HBox.margin>
+						<Insets left="20.0" top="20.0" />
+					</HBox.margin>
+				</VBox>
+			</children>
+		</HBox>
+	</children>
+</VBox>

@@ -1,0 +1,4 @@
+/* styles.css */
+.background-3d {
+    -fx-background-color: linear-gradient(to right, rgb(55, 31, 0), rgb(188, 117, 86));
+}

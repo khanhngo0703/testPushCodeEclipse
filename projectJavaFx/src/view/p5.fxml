@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="375.0" prefWidth="872.0" style="-fx-background-radius: 10;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="872.0">
+         <children>
+            <Label alignment="CENTER" text="People also view">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Label>
+            <HBox alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="711.0">
+               <children>
+                  <Hyperlink text="See all" underline="true">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="317.0" prefWidth="872.0">
+         <children>
+            <VBox prefHeight="299.0" prefWidth="217.0" style="-fx-background-radius: 10;" styleClass="white-background" stylesheets="@../css/style.css">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" />
+               </HBox.margin>
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green; -fx-background-radius: 10 10 0 0;">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="59.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" styleClass="border-radius">
+                           <image>
+                              <Image url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/gurutv.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label text="GuruTV ">
+                     <VBox.margin>
+                        <Insets left="20.0" top="8.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="29.0" style="-fx-background-color: #CCCC#DDDDDDCC; -fx-background-radius: 5;" text="Free">
+                     <VBox.margin>
+                        <Insets left="180.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="299.0" prefWidth="217.0" style="-fx-background-radius: 10;" styleClass="white-background" stylesheets="@../css/style.css">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green; -fx-background-radius: 10 10 0 0;">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="59.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" styleClass="border-radius">
+                           <image>
+                              <Image url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/gurutv.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label text="GuruTV ">
+                     <VBox.margin>
+                        <Insets left="20.0" top="8.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="29.0" style="-fx-background-color: #CCCC#DDDDDDCC; -fx-background-radius: 5;" text="Free">
+                     <VBox.margin>
+                        <Insets left="180.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="299.0" prefWidth="217.0" style="-fx-background-radius: 10;" styleClass="white-background" stylesheets="@../css/style.css">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green; -fx-background-radius: 10 10 0 0;">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="59.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" styleClass="border-radius">
+                           <image>
+                              <Image url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/gurutv.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label text="GuruTV ">
+                     <VBox.margin>
+                        <Insets left="20.0" top="8.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="29.0" style="-fx-background-color: #CCCC#DDDDDDCC; -fx-background-radius: 5;" text="Free">
+                     <VBox.margin>
+                        <Insets left="180.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="299.0" prefWidth="217.0" style="-fx-background-radius: 10;" styleClass="white-background" stylesheets="@../css/style.css">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green; -fx-background-radius: 10 10 0 0;">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="59.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" styleClass="border-radius">
+                           <image>
+                              <Image url="file:/D:/JAVA-PROJECT/projectJavaFx/src/asset/gurutv.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label text="GuruTV ">
+                     <VBox.margin>
+                        <Insets left="20.0" top="8.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="29.0" style="-fx-background-color: #CCCC#DDDDDDCC; -fx-background-radius: 5;" text="Free">
+                     <VBox.margin>
+                        <Insets left="180.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
